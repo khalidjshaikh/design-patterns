@@ -21,6 +21,7 @@
         <module>Saga</module>
         <module>ServiceDiscovery</module>
         <module>Singleton</module>
+        <module>AggregatorDemo</module>
     </modules>
 
     <properties>
@@ -35,9 +36,9 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.6.4</version>
                 <configuration>
-                    <mainClass>com.artificialintelligence.patterns.singleton.Demo</mainClass>
+                    <mainClass>com.artificialintelligence.patterns.aggregator.Demo</mainClass>
                     <additionalClasspathElements>
-                        <additionalClasspathElement>${project.basedir}/Singleton/target/classes</additionalClasspathElement>
+                        <additionalClasspathElement>${project.basedir}/AggregatorDemo/target/classes</additionalClasspathElement>
                     </additionalClasspathElements>
                 </configuration>
             </plugin>
