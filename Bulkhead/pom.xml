@@ -46,7 +46,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.6.4</version>
                 <configuration>
-                    <mainClass>com.artificialintelligence.bulkhead.demo.BulkheadDemo</mainClass>
+                    <mainClass>com.artificialintelligence.patterns.bulkhead.demo.BulkheadDemo</mainClass>
                 </configuration>
             </plugin>
         </plugins>

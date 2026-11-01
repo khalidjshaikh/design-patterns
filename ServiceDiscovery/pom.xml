@@ -39,7 +39,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.6.4</version>
                 <configuration>
-                    <mainClass>com.artificialintelligence.servicediscovery.example.ServiceDiscoveryDemo</mainClass>
+                    <mainClass>com.artificialintelligence.patterns.servicediscovery.example.ServiceDiscoveryDemo</mainClass>
                 </configuration>
             </plugin>
         </plugins>

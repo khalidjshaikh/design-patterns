@@ -46,7 +46,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.6.4</version>
                 <configuration>
-                    <mainClass>com.artificialintelligence.circuitbreaker.demo.CircuitBreakerDemo</mainClass>
+                    <mainClass>com.artificialintelligence.patterns.circuitbreaker.demo.CircuitBreakerDemo</mainClass>
                 </configuration>
             </plugin>
         </plugins>

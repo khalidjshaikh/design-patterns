@@ -1,0 +1,11 @@
+package com.artificialintelligence.patterns.bulkhead;
+
+/**
+ * Snapshot of a bulkhead's capacity metrics.
+ */
+public interface BulkheadMetrics {
+
+    int getAvailableConcurrentCalls();
+
+    int getMaxAllowedConcurrentCalls();
+}
