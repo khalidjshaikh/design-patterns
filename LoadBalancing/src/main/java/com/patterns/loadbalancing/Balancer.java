@@ -1,0 +1,6 @@
+package com.patterns.loadbalancing;
+
+import java.util.List;
+
+public interface Balancer extends LoadBalancer {
+}
