@@ -42,6 +42,8 @@ public class IpHashLoadBalancer extends AbstractLoadBalancer {
     public Server getServer() { return next(); }
 }
 
+
+
 class IPHashLoadBalancer extends IpHashLoadBalancer {
     public IPHashLoadBalancer() { super(); }
     public IPHashLoadBalancer(List<?> servers) { super(servers); }
@@ -53,6 +55,7 @@ class IPHash extends IpHashLoadBalancer {
     public IPHash(List<?> servers) { super(servers); }
     public IPHash(Object ignored) { super(ignored); }
 }
+
 
 
 

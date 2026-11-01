@@ -1,4 +1,4 @@
-package com.example.loadbalancer;
+package com.artificialintelligence.loadbalancer;
 
 import java.util.List;
 
@@ -41,6 +41,21 @@ public class IpHashLoadBalancer extends AbstractLoadBalancer {
     public Server getNextServer() { return next(); }
     public Server getServer() { return next(); }
 }
+
+
+
+class IPHashLoadBalancer extends IpHashLoadBalancer {
+    public IPHashLoadBalancer() { super(); }
+    public IPHashLoadBalancer(List<?> servers) { super(servers); }
+    public IPHashLoadBalancer(Object ignored) { super(ignored); }
+}
+
+class IPHash extends IpHashLoadBalancer {
+    public IPHash() { super(); }
+    public IPHash(List<?> servers) { super(servers); }
+    public IPHash(Object ignored) { super(ignored); }
+}
+
 
 
 
